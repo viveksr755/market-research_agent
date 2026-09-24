@@ -1,0 +1,32 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# IDE files
+.idea/
+.vscode/
+
+# Generated reports
+reports/*
+!reports/.gitkeep
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
